@@ -45,7 +45,7 @@ public class Sound
   		}
   	}
   	int[] newArr = new int[samples.length - startAt];
-  	for (int i = 1; i < newArr.length; i++){
+  	for (int i = 0; i < newArr.length; i++){
   		newArr[i] = samples[startAt + i];
   	}
   	samples = newArr;
